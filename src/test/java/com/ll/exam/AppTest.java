@@ -30,6 +30,16 @@ public class AppTest {
 
     @Test
     public void 표준출력을_리다이렉션하여_결과를_문자열로_받기() throws IOException {
+        /*
+        일종의 블랙박스 역할
+
+        표준출력을 리다이렉션
+        -> 아무리 출력해도 output에 차곡차곡 쌓인다 (출력되지 X)
+
+        표준출력을 원상복구
+        -> 쌓이지 않고 다시 원상복구 시킴 출력을
+         */
+
         //표준출력을 리다이렉션
         ByteArrayOutputStream output = new ByteArrayOutputStream();
         System.setOut(new PrintStream(output));

@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="872f21ba-ccd5-4e75-bbfd-3b21748f245d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ll/exam/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ll/exam/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -95,7 +95,9 @@
       <updated>1657171249738</updated>
       <workItem from="1657171250836" duration="8456000" />
       <workItem from="1657254693008" duration="2112000" />
-      <workItem from="1657256830521" duration="3141000" />
+      <workItem from="1657256830521" duration="3243000" />
+      <workItem from="1657260206503" duration="383000" />
+      <workItem from="1657271594019" duration="32000" />
     </task>
     <servers />
   </component>
