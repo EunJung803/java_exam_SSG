@@ -1,3 +1,5 @@
+package com.ll.exam;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -36,6 +38,7 @@ public class App {
                 case "목록":
                     System.out.println("번호 / 작가 / 명언");
                     System.out.println("----------------");
+
 //                    ArrayList 요소 확인용 출력
 //                    for(String authorStr : authorList) {
 //                        System.out.println(authorStr);

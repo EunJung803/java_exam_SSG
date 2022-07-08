@@ -1,3 +1,5 @@
+package com.ll.exam;
+
 public class WiseSaying {
     int id;
     String quote;
@@ -11,10 +13,11 @@ public class WiseSaying {
 
     @Override
     public String toString() {
-        return "WiseSaying{" +
+        return "com.ll.exam.WiseSaying{" +
                 "id=" + id +
                 ", quote='" + quote + '\'' +
                 ", author='" + author + '\'' +
                 '}';
     }
+
 }
