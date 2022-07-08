@@ -13,7 +13,7 @@ public class WiseSaying {
 
     @Override
     public String toString() {
-        return "com.ll.exam.WiseSaying{" +
+        return "WiseSaying{" +
                 "id=" + id +
                 ", quote='" + quote + '\'' +
                 ", author='" + author + '\'' +
