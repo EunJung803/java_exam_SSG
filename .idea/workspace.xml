@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="872f21ba-ccd5-4e75-bbfd-3b21748f245d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ll/exam/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ll/exam/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <recent name="com.ll.exam" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="Application.com.ll.exam.Main">
     <configuration name="com.ll.exam.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ll.exam.Main" />
       <module name="likelionSSG" />
@@ -79,9 +79,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.ll.exam.Main" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.All in likelionSSG" />
-        <item itemvalue="Application.com.ll.exam.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +95,7 @@
       <updated>1657171249738</updated>
       <workItem from="1657171250836" duration="8456000" />
       <workItem from="1657254693008" duration="2112000" />
-      <workItem from="1657256830521" duration="2182000" />
+      <workItem from="1657256830521" duration="3141000" />
     </task>
     <servers />
   </component>

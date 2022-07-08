@@ -2,6 +2,7 @@ package com.ll.exam;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class App {
@@ -11,8 +12,7 @@ public class App {
         Scanner sc = new Scanner(System.in);
 
         int id = 0;
-//        ArrayList<String> quoteList = new ArrayList<String>();
-//        ArrayList<String> authorList = new ArrayList<String>();
+        List<WiseSaying> wiseList = new ArrayList<>();
 
         outer: // 라벨임, 이게 적혀있는 곳에서 break되면 여기로 돌아온다
         while(true) {
@@ -30,25 +30,22 @@ public class App {
 //                    authorList.add(author);     // 리스트에 작가 추가
 
                     id++;
-                    WiseSaying wiseSaying = new WiseSaying(id, quote, author);
                     System.out.println(id + "번 명언이 등록되었습니다.");
-                    System.out.println(wiseSaying);
+
+                    WiseSaying wiseSaying = new WiseSaying(id, quote, author);  // WiseSaying 생성
+                    wiseList.add(wiseSaying);   // WiseSaying List에 WiseSaying 추가
+
+//                    System.out.println(wiseSaying);  // 객체 확인용 출력
                     break;
 
                 case "목록":
                     System.out.println("번호 / 작가 / 명언");
                     System.out.println("----------------");
 
-//                    ArrayList 요소 확인용 출력
-//                    for(String authorStr : authorList) {
-//                        System.out.println(authorStr);
-//                    }
-//                    for(String quoteStr : quoteList) {
-//                        System.out.println(quoteStr);
-//                    }
-//                    for(int i=cnt-1; i>=0; i--) {
-//                        System.out.printf("%d / %s / %s\n", i+1, authorList.get(i), quoteList.get(i));
-//                    }
+                    for(int i = wiseList.size()-1; i >= 0; i--) {
+                        WiseSaying wiseList_ = wiseList.get(i);
+                        System.out.printf("%d / %s / %s\n", wiseList_.id, wiseList_.author, wiseList_.quote);
+                    }
                     break;
                 case "종료":
                     break outer; // 위에 outer 지점으로 돌아감 break 하면서
