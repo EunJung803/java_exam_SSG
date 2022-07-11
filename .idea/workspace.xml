@@ -52,7 +52,7 @@
       <recent name="com.ll.exam" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.ll.exam.Main">
+  <component name="RunManager" selected="JUnit.AppTest.Rq__getIntParam__2">
     <configuration name="com.ll.exam.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ll.exam.Main" />
       <module name="likelionSSG" />
@@ -77,8 +77,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.Rq__getIntParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="likelionSSG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ll.exam" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.exam.AppTest" />
+      <option name="METHOD_NAME" value="Rq__getIntParam" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.Rq__getIntParam__2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="likelionSSG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ll.exam" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.exam.AppTest" />
+      <option name="METHOD_NAME" value="Rq__getIntParam__2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.Rq__getIntParam__2" />
+        <item itemvalue="JUnit.AppTest.Rq__getIntParam" />
         <item itemvalue="Application.com.ll.exam.Main" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.All in likelionSSG" />
@@ -97,7 +131,10 @@
       <workItem from="1657254693008" duration="2112000" />
       <workItem from="1657256830521" duration="3243000" />
       <workItem from="1657260206503" duration="383000" />
-      <workItem from="1657271594019" duration="32000" />
+      <workItem from="1657271594019" duration="77000" />
+      <workItem from="1657370099872" duration="82000" />
+      <workItem from="1657370322851" duration="4000" />
+      <workItem from="1657515913332" duration="2796000" />
     </task>
     <servers />
   </component>
