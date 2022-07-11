@@ -71,15 +71,8 @@ public class App {
             return;
         }
 
-        // 명언 객체를 담을 WiseSaying형 변수
-        WiseSaying foundWiseSaying = null;
-
-        // URL에 입력된 id가 해당하는 명언객체 찾아서 변수에 담기 (저장)
-        for(WiseSaying wiseSaying___ : wiseList) {
-            if(wiseSaying___.id == paramID) {
-                foundWiseSaying = wiseSaying___;
-            }
-        }
+        // URL에 입력된 id에 해당하는 명언객체 찾기 - findById 구현
+        WiseSaying foundWiseSaying = findById(paramID);
 
         // 찾지 못하면 중지
         if(foundWiseSaying == null) {
@@ -99,5 +92,17 @@ public class App {
             WiseSaying wiseList_ = wiseList.get(i);
             System.out.printf("%d / %s / %s\n", wiseList_.id, wiseList_.author, wiseList_.quote);
         }
+    }
+
+    private WiseSaying findById(int paramID) {
+        // URL에 입력된 id가 해당하는 명언객체 찾아서 변수에 담기 (저장)
+        for(WiseSaying wiseSaying___ : wiseList) {
+            if(wiseSaying___.id == paramID) {
+                return wiseSaying___;
+            }
+        }
+
+        // 다 돌았는데 없으면 null
+        return null;
     }
 }
