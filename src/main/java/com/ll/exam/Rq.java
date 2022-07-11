@@ -23,4 +23,10 @@ public class Rq {
 
         return defaultValue;
     }
+
+    public String getPath() {
+        String[] urlBits = url.split("\\?", 2);
+
+        return urlBits[0];
+    }
 }

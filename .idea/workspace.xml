@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="872f21ba-ccd5-4e75-bbfd-3b21748f245d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/Rq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/Rq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ll/exam/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ll/exam/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,18 +53,10 @@
       <recent name="com.ll.exam" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.Rq__getIntParam__2">
+  <component name="RunManager" selected="JUnit.AppTest.Rq__getPath">
     <configuration name="com.ll.exam.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ll.exam.Main" />
       <module name="likelionSSG" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in likelionSSG" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="likelionSSG" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,13 +102,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.Rq__getPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="likelionSSG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ll.exam" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.exam.AppTest" />
+      <option name="METHOD_NAME" value="Rq__getPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.Rq__getPath" />
         <item itemvalue="JUnit.AppTest.Rq__getIntParam__2" />
         <item itemvalue="JUnit.AppTest.Rq__getIntParam" />
         <item itemvalue="Application.com.ll.exam.Main" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.All in likelionSSG" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +143,7 @@
       <workItem from="1657271594019" duration="77000" />
       <workItem from="1657370099872" duration="82000" />
       <workItem from="1657370322851" duration="4000" />
-      <workItem from="1657515913332" duration="2796000" />
+      <workItem from="1657515913332" duration="3132000" />
     </task>
     <servers />
   </component>
