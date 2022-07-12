@@ -37,6 +37,10 @@ public class App {
                     remove(rq);  // remove 구현 - 리펙토링
                     break;
 
+                case "수정":
+                    modify(rq);  // modify 구현 - 수정을 위한 메서드
+                    break;
+
                 case "목록":
                     list(rq);  // list 구현 - 리펙토링
                     break;
@@ -47,6 +51,33 @@ public class App {
         }
 
         sc.close();
+    }
+
+    private void modify(Rq rq) {
+        int paramID = rq.getIntParam("id", 0); // URL에 입력된 id 얻기
+
+        if(paramID == 0) {  // URL에 입력된 id가 없으면 중지
+            System.out.println("id를 입력해주세요.");
+            return;
+        }
+
+        // URL에 입력된 id에 해당하는 명언객체 찾기 - findById 구현
+        WiseSaying foundWiseSaying = findById(paramID);
+
+        // 찾지 못하면 중지
+        if(foundWiseSaying == null) {
+            System.out.printf("%d번 명언은 존재하지 않습니다.\n", paramID);
+            return;
+        }
+
+        System.out.printf("명언(기존) : %s\n", foundWiseSaying.quote);  // 기존의 명언을 보여주고
+        System.out.printf("명언 : ");
+        foundWiseSaying.quote = sc.nextLine();  // 수정할 명언을 scanner로 받아 바로 foundWiseSaying.quote 부분에 저장
+        System.out.printf("작가(기존) : %s\n", foundWiseSaying.author);  // 기존의 작가를 보여주고
+        System.out.printf("작가 : ");
+        foundWiseSaying.author = sc.nextLine();  // 수정할 작가명을 scanner로 받아 바로 foundWiseSaying.author 부분에 저장
+
+        System.out.printf("%d번 명언이 수정되었습니다.\n", paramID);
     }
 
     private void write(Rq rq) {
