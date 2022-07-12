@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="872f21ba-ccd5-4e75-bbfd-3b21748f245d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ll/exam/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ll/exam/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ll/exam/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ll/exam/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <recent name="com.ll.exam" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.ll.exam.Main">
+  <component name="RunManager" selected="JUnit.AppTest.파일에_내용쓰기">
     <configuration name="com.ll.exam.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ll.exam.Main" />
       <module name="likelionSSG" />
@@ -66,22 +67,6 @@
       <option name="PACKAGE_NAME" value="com.ll.exam" />
       <option name="MAIN_CLASS_NAME" value="com.ll.exam.AppTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.Rq__getIntParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="likelionSSG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ll.exam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ll.exam" />
-      <option name="MAIN_CLASS_NAME" value="com.ll.exam.AppTest" />
-      <option name="METHOD_NAME" value="Rq__getIntParam" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,13 +103,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.파일에_내용쓰기" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="likelionSSG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ll.exam" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.exam.AppTest" />
+      <option name="METHOD_NAME" value="파일에_내용쓰기" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.파일에_내용쓰기" />
         <item itemvalue="Application.com.ll.exam.Main" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.Rq__getPath" />
         <item itemvalue="JUnit.AppTest.Rq__getIntParam__2" />
-        <item itemvalue="JUnit.AppTest.Rq__getIntParam" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +147,7 @@
       <workItem from="1657515913332" duration="4890000" />
       <workItem from="1657521410892" duration="4288000" />
       <workItem from="1657560389252" duration="2302000" />
-      <workItem from="1657591773600" duration="14433000" />
+      <workItem from="1657591773600" duration="15285000" />
     </task>
     <servers />
   </component>
