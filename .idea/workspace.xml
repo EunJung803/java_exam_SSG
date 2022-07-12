@@ -52,7 +52,7 @@
       <recent name="com.ll.exam" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.ll.exam.Main">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="com.ll.exam.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ll.exam.Main" />
       <module name="likelionSSG" />
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.com.ll.exam.Main" />
         <item itemvalue="JUnit.AppTest.Rq__getPath" />
         <item itemvalue="JUnit.AppTest.Rq__getIntParam__2" />
         <item itemvalue="JUnit.AppTest.Rq__getIntParam" />
-        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +145,7 @@
       <workItem from="1657515913332" duration="4890000" />
       <workItem from="1657521410892" duration="4288000" />
       <workItem from="1657560389252" duration="2302000" />
-      <workItem from="1657591773600" duration="7842000" />
+      <workItem from="1657591773600" duration="9216000" />
     </task>
     <servers />
   </component>
