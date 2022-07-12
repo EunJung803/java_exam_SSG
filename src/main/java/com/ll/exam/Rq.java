@@ -1,9 +1,13 @@
 package com.ll.exam;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Rq {
     String url;
     String path;
-    String queryStr;
+//    String queryStr;
+    Map<String, String> queryParams;  // Map 선언
 
     // getIntParam과 getPath 할때마다 ?을 기준으로 쪼개야 하기 때문에 두 부분에 다 존재
     // 따라서 생성자을 통해 한번 받았을 때 쪼개주어 리팩토링 진행
@@ -13,29 +17,40 @@ public class Rq {
 
         this.path = urlBits[0];
 
+        queryParams = new HashMap<>();  // HashMap 생성
+
         if(urlBits.length == 2) {  // ?를 써서 정보를 물어보지 않는 명령이 존재하기 때문에 조건문으로 걸러준다.
-            this.queryStr = urlBits[1];
+            String queryStr = urlBits[1];
+
+            String[] paramBits = queryStr.split("&");
+
+            for (String paramBit : paramBits) {
+                String[] paramNameAndValue = paramBit.split("=", 2);
+
+                if (paramNameAndValue.length == 1) {
+                    continue;
+                }
+
+                String paramName = paramNameAndValue[0].trim();
+                String paramValue = paramNameAndValue[1].trim();
+
+                queryParams.put(paramName, paramValue);
+            }
         }
     }
 
     public int getIntParam(String paramName, int defaultValue) {
-        if (queryStr == null) {  // 값이 들어가있지 않으면 null이 들어가있음
+        if (queryParams.containsKey(paramName) == false) {  // 값이 들어가있지 않으면
             return defaultValue;
         }
 
-        String[] bits = queryStr.split("&");
+        String paramValue = queryParams.get(paramName);
 
-        for (String urlBit : bits) {
-            String[] paramNameAndValue = urlBit.split("=", 2);
-            String paramName_ = paramNameAndValue[0];
-            String paramValue = paramNameAndValue[1];
-
-            if (paramName.equals(paramName_)) {
-                return Integer.parseInt(paramValue);
-            }
+        if(paramValue.length() == 0) {
+            return defaultValue;
         }
 
-        return defaultValue;
+        return Integer.parseInt(paramValue);
     }
 
     public String getPath() {
