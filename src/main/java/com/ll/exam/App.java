@@ -14,6 +14,7 @@ public class App {
     public void run() {
         System.out.println(" == 명언 SSG == ");
 
+        // 프로그램이 시작되면 WiseSayingController를 생성
         WiseSayingController wiseSayingController = new WiseSayingController(sc);
 
         outer: // 라벨임, 이게 적혀있는 곳에서 break되면 여기로 돌아온다
