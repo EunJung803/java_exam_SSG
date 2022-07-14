@@ -14,6 +14,14 @@ public class FileDBTest {
         Util.deleteDir("test_data");
         Util.mkdir("test_data");
     }
+
+    @Test
+    void 파일에_숫자_저장() {
+        Util.saveNumberToFile("test_data/last_id.txt", 100);
+        int rs = Util.readNumberFromFile("test_data/last_id.txt", 0);
+        assertEquals(100, rs);
+    }
+
     @Test
     void 파일에_있는_JSON을_객체로_변환() {
         WiseSaying wiseSaying = new WiseSaying(1, "내 사전에 불가능은 없다.", "나폴레옹");
