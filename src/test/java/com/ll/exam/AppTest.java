@@ -10,6 +10,21 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AppTest {
     @Test
+    void 파일에_있는_JSON을_객체로_변환() {
+        Util.mkdir("test_data");
+        WiseSaying wiseSaying = new WiseSaying(1, "내 사전에 불가능은 없다.", "나폴레옹");
+        Util.saveToFile("test_data/1.json", wiseSaying.toJson());  // toJson 메서드 실행하기
+
+        String rs = Util.readFromFile("test_data/1.json");
+        Map<String, Object> map = Util.jsonToMap(rs);   // map으로 변환하기
+        WiseSaying loadedWiseSaying = new WiseSaying(map);      // WiseSaying 객체로 변환하기
+
+        assertEquals(1, map.get("id"));
+        assertEquals("내 사전에 불가능은 없다.", map.get("quote"));
+        assertEquals("나폴레옹", map.get("author"));
+    }
+
+    @Test
     void 파일에_있는_JSON을_맵으로_변환() {
         Util.mkdir("test_data");
         WiseSaying wiseSaying = new WiseSaying(1, "내 사전에 불가능은 없다.", "나폴레옹");
