@@ -33,7 +33,7 @@ public class WiseSaying {
         return """
                 {
                     "id": %d,
-                    "content": "%s",
+                    "quote": "%s",
                     "author": "%s"
                 }
                 """
